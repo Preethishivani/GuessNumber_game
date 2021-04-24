@@ -1,0 +1,108 @@
+body {
+  background-image: url('back\ img.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}
+.between{
+  text-align: center;
+  /* padding-right: 2rem; */
+  padding-top: 1rem;
+  /* /* margin-right: 1rem; */
+  margin-top: 0;
+  /* margin-bottom: 0; */
+  font-size: 25px; 
+  font-style: italic;
+  text-shadow: 0 0 1px black;
+}
+.btn-again{
+  padding:0.5rem 1rem;
+  margin-left: 1rem;
+  font-size: 30px;
+  color: white;
+  background-color: black;
+  border: 1px solid black;
+  margin-top: 0;
+  box-shadow: 0 0 10px black;
+}
+.demo{
+  font-size: 50px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  margin-top: 0;
+  text-shadow: 0 0 10px white;
+}
+hr{
+  background-color:black;
+  width: 500px;
+  text-align: center;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 0.3rem;
+  box-shadow: 0 0 5px black;
+} 
+.number{
+  font-size: 50px;
+  padding: 0.5rem 4rem;
+  display: inline;
+  text-align: center;
+  margin-left: 45%;
+  background-color: black;
+  color: white;
+  /* box-sizing:content-box; */
+  border: 1px solid black;
+  height: 3rem;
+  box-sizing: 10px;
+  box-shadow:  0 0 5px black;
+}
+.left{
+  margin-top: 0px;
+}
+.left p{
+  margin-left: 235px;
+  font-size: 30px;
+  font-style: italic;
+  text-shadow: 0 0 1px black;
+}
+.guess{
+  margin-left: 260px;
+  margin-top: 10px;
+  padding: 0;
+  height: 60px;
+  width: 130px;
+  border:2px solid black;
+  font-size: 30px;
+  text-align: center;
+
+}
+.btn-check{
+  margin-left: 290px;
+  margin-top: 20px;
+  padding:0.5rem 0.5rem;
+  font-size: 20px;
+  color: white;
+  background-color:black;
+  border: 1px solid black;
+  font-size: 20px;
+  box-shadow: 0 5px 10px black;
+}
+
+.right{
+  margin-left: 400px;
+  margin-top: 40px;
+}
+/* .message{
+ margin-left: 2px;
+ padding-left: 5px;
+} */
+.label-score{
+  font-size: 30px;
+  font-style: italic;
+  margin-right: 30px;
+  text-shadow: 0 0 1px black;
+}
+.label-highScore{
+  font-size: 30px;
+  font-style: italic;
+  text-shadow: 0 0 1px black;
+}
