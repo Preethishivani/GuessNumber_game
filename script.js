@@ -22,7 +22,6 @@ btnCheck.addEventListener('click',function () {
     //console.log(`Thank you your num is ${guess}`);
       if(guess===secretNum){
         message.textContent = 'You are Correct 🎉';
-        document.body.style.backgroundColor = 'green';
         number.textContent = secretNum;
         if(score>highScore){
           highScore = score;
@@ -42,7 +41,6 @@ btnCheck.addEventListener('click',function () {
     }
   }else{
     message.textContent = 'You lost the game';
-    document.body.style.backgroundColor = 'red';
     secretNum = Math.trunc(Math.random()*20)+1;
     number.textContent = secretNum;
     score=20;
