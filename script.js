@@ -1,7 +1,7 @@
 'use strict';
 
 var secretNum = Math.trunc(Math.random()*20)+1;
-
+console.log(secretNum);
 const number = document.querySelector('.number');
 var btnCheck = document.querySelector('.btn-check');
 const btnAgain = document.querySelector('.btn-again');
@@ -55,6 +55,6 @@ btnAgain.addEventListener('click',function(){
   number.textContent =  document.querySelector('.number').value;
   score=20;
   displayScore.textContent = score;
-  message.textContent = 'Start Guessing...';
+  message.textContent = 'Start Guessing...🤔';
   document.querySelector('.guess').value= '';
 })
